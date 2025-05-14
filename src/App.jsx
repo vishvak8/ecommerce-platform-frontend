@@ -13,7 +13,7 @@ function App() {
 
   const fetchProducts = async () => {
     try {
-      const res = await axios.get("http://localhost:5001/products");
+      const res = await axios.get("https://ecommerce-platform-backend-n9wx.onrender.com/products");
       setProducts(res.data);
       setAllProducts(res.data);
     } catch (err) {
@@ -28,7 +28,7 @@ function App() {
     }
 
     try {
-      const res = await axios.post("http://localhost:5001/semantic-search", {
+      const res = await axios.post("https://ecommerce-platform-backend-n9wx.onrender.com/semantic-search", {
         query,
         products: allProducts,
       });
@@ -40,7 +40,7 @@ function App() {
 
   const handleProductSubmit = async (product) => {
     try {
-      await axios.post("http://localhost:5001/products", product);
+      await axios.post("https://ecommerce-platform-backend-n9wx.onrender.com/products", product);
       fetchProducts();
     } catch (err) {
       console.error("Error submitting product:", err);
@@ -49,11 +49,11 @@ function App() {
 
   const handleTranslate = async (description, productName) => {
     try {
-      const res = await axios.post("http://localhost:5001/translate", {
+      const res = await axios.post("https://ecommerce-platform-backend-n9wx.onrender.com/translate", {
         text: description,
       });
 
-      // ✅ Clean, remove quotes, capitalize first letter, no full stop
+      //Clean, remove quotes, capitalize first letter, no full stop
       let translatedText = res.data.translatedText
         .replace(/[\u200E\u200F\u202A-\u202E]/g, "")
         .replace(/<[^>]*>?/gm, "")
