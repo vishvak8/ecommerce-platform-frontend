@@ -50,7 +50,7 @@ It allows users to submit products, view all submitted products, and search them
 
 ## Setup Instructions (Local)
 
-1. **Clone the Repository**
+1. **Clone the Frontend Repository**
 
 ```bash
 git clone https://github.com/vishvak8/ecommerce-platform-frontend.git
