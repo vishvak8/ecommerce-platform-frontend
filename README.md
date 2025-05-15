@@ -1,12 +1,141 @@
-# React + Vite
+# E-Commerce Platform – Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend for a mini e-commerce platform built with **React.js** and **Tailwind CSS**.  
+It allows users to submit products, view all submitted products, and search them using smart AI-based contextual search powered by OpenAI.
 
-Currently, two official plugins are available:
+**🌐 Live Site:** [https://ecommerce-platform-frontend-nq55a92wo-vishvak8s-projects.vercel.app](https://ecommerce-platform-frontend-nq55a92wo-vishvak8s-projects.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: React.js
+- **Styling**: Tailwind CSS
+- **Backend Communication**: Axios (REST API)
+- **AI Integration**: OpenAI API (Contextual Search + Translation)
+- **Hosting**: Vercel
+
+---
+
+## Core Features
+
+### 📝 Product Submission Tab
+- Users can enter:
+  - Product Name
+  - Price
+  - Description
+  - Image URL (optional)
+- On submission, the data is sent to the backend and stored in PostgreSQL.
+
+### My Products Tab
+- Displays all submitted products in a clean card layout.
+- Shows product name, description, price, and image.
+- Products appear in reverse chronological order.
+- Dynamically updates after submission.
+
+### 🔍 AI-Powered Smart Search
+- Search box allows contextual queries like:
+  - `cheapest phone`
+  - `flagship Android phone`
+  - `budget phone under ₹100000`
+  - `wireless noise canceling headphones`
+- Returns matching products using OpenAI’s semantic understanding.
+
+### 🌐 Hindi Translation Feature
+- Each product has a **"Translate to Hindi"** button.
+- Uses OpenAI to translate the English product description into fluent Hindi.
+- Output is clean, human-like, and displayed below the card.
+
+---
+
+## Setup Instructions
+
+1. **Clone the Repository**
+
+```bash
+git clone https://github.com/vishvak8/ecommerce-platform-frontend.git
+cd ecommerce-platform-frontend
+```
+
+2. **Install dependencies**
+
+```bash
+npm install
+```
+
+3. **Run the Development Server**
+
+```bash
+npm run dev
+```
+
+Frontend will run on: http://localhost:5173
+Make sure your backend is also running in a separate terminal.
+
+---
+
+## Run the Backend
+
+1. **Clone the Backend Repository**
+
+```bash
+git clone https://github.com/vishvak8/ecommerce-platform-backend.git
+cd ecommerce-platform-backend
+```
+
+2. **Install dependencies**
+
+```bash
+npm install
+```
+
+3. **Start the backend server**
+
+```bash
+npm start
+```
+Backend will run on: http://localhost:5001
+
+---
+
+## Note
+
+By default, the frontend points to the hosted backend on Render:
+
+```bash
+https://ecommerce-platform-backend-n9wx.onrender.com
+```
+
+If you're running the backend locally, update all axios URLs inside your App.jsx file like this:
+
+```bash
+https://ecommerce-platform-backend-n9wx.onrender.com
+```
+
+Change:
+
+```bash
+http://localhost:5001
+```
+
+To:
+
+```bash
+http://localhost:5001
+```
+
+---
+
+## License
+
+This project is for **educational/demo purposes only**.  
+No commercial use or real transactions involved.
+
+---
+
+## Author
+
+Built with ❤️ by [@vishvak8](https://github.com/vishvak8)
+
+   
+
