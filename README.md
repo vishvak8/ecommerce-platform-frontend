@@ -106,7 +106,7 @@ By default, the frontend points to the hosted backend on Render:
 https://ecommerce-platform-backend-n9wx.onrender.com
 ```
 
-If you're running the backend locally, update all axios URLs inside the App.jsx file like this:
+If running the backend locally, update all axios URLs inside the App.jsx file like this:
 
 ```bash
 https://ecommerce-platform-backend-n9wx.onrender.com
