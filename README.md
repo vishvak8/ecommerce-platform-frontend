@@ -124,6 +124,7 @@ To:
 http://localhost:5001
 ```
 
+Make sure to create a `.env` file in the backend folder if running locally. 
 👉 For environment variable setup, see the [Backend README](https://github.com/vishvak8/ecommerce-platform-backend#-setup-instructions).
 
 ---
