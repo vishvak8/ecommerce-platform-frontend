@@ -48,7 +48,7 @@ It allows users to submit products, view all submitted products, and search them
 
 ---
 
-## Setup Instructions
+## Setup Instructions (Local)
 
 1. **Clone the Repository**
 
