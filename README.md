@@ -3,7 +3,7 @@
 This is the frontend for a mini e-commerce platform built with **React.js** and **Tailwind CSS**.  
 It allows users to submit products, view all submitted products, and search them using smart AI-based contextual search powered by OpenAI.
 
-** Live Site:** [https://ecommerce-platform-frontend-nq55a92wo-vishvak8s-projects.vercel.app](https://ecommerce-platform-frontend-nq55a92wo-vishvak8s-projects.vercel.app)
+** Live Site:** https://ecommerce-platform-frontend-nq55a92wo-vishvak8s-projects.vercel.app/
 
 ---
 
