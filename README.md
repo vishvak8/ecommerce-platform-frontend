@@ -115,7 +115,7 @@ https://ecommerce-platform-backend-n9wx.onrender.com
 Change:
 
 ```bash
-http://localhost:5001
+https://ecommerce-platform-backend-n9wx.onrender.com
 ```
 
 To:
