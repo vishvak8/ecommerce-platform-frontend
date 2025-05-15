@@ -3,7 +3,7 @@
 This is the frontend for a mini e-commerce platform built with **React.js** and **Tailwind CSS**.  
 It allows users to submit products, view all submitted products, and search them using smart AI-based contextual search powered by OpenAI.
 
-**🌐 Live Site:** [https://ecommerce-platform-frontend-nq55a92wo-vishvak8s-projects.vercel.app](https://ecommerce-platform-frontend-nq55a92wo-vishvak8s-projects.vercel.app)
+** Live Site:** [https://ecommerce-platform-frontend-nq55a92wo-vishvak8s-projects.vercel.app](https://ecommerce-platform-frontend-nq55a92wo-vishvak8s-projects.vercel.app)
 
 ---
 
@@ -19,7 +19,7 @@ It allows users to submit products, view all submitted products, and search them
 
 ## Core Features
 
-### 📝 Product Submission Tab
+### Product Submission Tab
 - Users can enter:
   - Product Name
   - Price
@@ -41,7 +41,7 @@ It allows users to submit products, view all submitted products, and search them
   - `wireless noise canceling headphones`
 - Returns matching products using OpenAI’s semantic understanding.
 
-### 🌐 Hindi Translation Feature
+### Hindi Translation Feature
 - Each product has a **"Translate to Hindi"** button.
 - Uses OpenAI to translate the English product description into fluent Hindi.
 - Output is clean, human-like, and displayed below the card.
